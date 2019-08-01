@@ -22,33 +22,117 @@
     </header>
 
     <main>
-      <h1>Контакты</h1>
-      <p>
-        <img src="../img/phone.svg" alt="phone icon"> <strong>Телефон</strong>: <a href="tel:88005553535" title="не настоящий телефон :)">8 800 355 35 35</a>
-      </p>
+      <section>
+        <header>
+          <h1>Контакты</h1>
+        </header>
+        <p>
+          <img src="../img/phone.svg" alt="phone icon"> <strong>Телефон</strong>: <a href="tel:88005553535" title="не настоящий телефон :)">8 800 355 35 35</a>
+        </p>
 
-      <p>
-        <img src="../img/mail.svg" alt="mail icon"> <strong>Почта</strong>: <a href="mailto:Mr.Olympiaa@gmail.com" title="и почта тоже">Mr.Olympiaa@gmail.com</a>
-      </p>
+        <p>
+          <img src="../img/mail.svg" alt="mail icon"> <strong>Почта</strong>: <a href="mailto:Mr.Olympiaa@gmail.com" title="и почта тоже">Mr.Olympiaa@gmail.com</a>
+        </p>
 
-      <p>
-        <img src="../img/skype.svg" alt="skype icon"> <strong>Skype</strong>: <a href="skype:schwarzenegger" title="как и skype">schwarzenegger</a>
-      </p>
+        <p>
+          <img src="../img/skype.svg" alt="skype icon"> <strong>Skype</strong>: <a href="skype:schwarzenegger" title="как и skype">schwarzenegger</a>
+        </p>
 
-      <p>
-        <a href="https://www.facebook.com/arnold/" target="_blank">
-          <img src="../img/facebook.svg" alt="facebook">
-        </a>
-        <a href="https://twitter.com/schwarzenegger/" target="_blank">
-          <img src="../img/twitter.svg" alt="twitter">
-        </a>
-        <a href="https://www.youtube.com/user/govschwarzenegger/" target="_blank">
-          <img src="../img/youtube.svg" alt="youtube">
-        </a>
-        <a href="https://www.pinterest.com/schwarzenegger/" target="_blank">
-          <img src="../img/pinterest.svg" alt="pinterest">
-        </a>
-      </p>
+        <p>
+          <a href="https://www.facebook.com/arnold/" target="_blank">
+            <img src="../img/facebook.svg" alt="facebook">
+          </a>
+          <a href="https://twitter.com/schwarzenegger/" target="_blank">
+            <img src="../img/twitter.svg" alt="twitter">
+          </a>
+          <a href="https://www.youtube.com/user/govschwarzenegger/" target="_blank">
+            <img src="../img/youtube.svg" alt="youtube">
+          </a>
+          <a href="https://www.pinterest.com/schwarzenegger/" target="_blank">
+            <img src="../img/pinterest.svg" alt="pinterest">
+          </a>
+        </p>
+      </section>
+      <section>
+        <header>
+          <h2>Получить подарок</h2>
+        </header>
+        <form action="https://mcslayer.com/hillel/post.php" method="post">
+          <section>
+            Сообщение:
+            <br>
+            <textarea name="message" rows="8" cols="80" placeholder="Введите сообщение ;)" wrap="soft"></textarea>
+            <br>
+            <br>
+          </section>
+
+          <section>
+            <label>
+              Имя:
+              <input type="text" name="first-name" placeholder="Введите своё имя" required>
+            </label>
+            <br>
+            <label>
+              Фамилия:
+              <input type="text" name="second-name" placeholder="Введите свою фамилию" required>
+            </label>
+            <br>
+
+            <label>
+              email
+              <input type="email" name="email" placeholder="example@gmail.com" required>
+            </label>
+            <br>
+            <br>
+          </section>
+
+          <section>
+            <label>
+              Мужчина
+              <input type="radio" name="sex" value="male" checked>
+            </label>
+            <label>
+              Женщина
+              <input type="radio" name="sex" value="female">
+            </label>
+            <br>
+            <br>
+          </section>
+
+          <section>
+            Я хочу получить:
+            <br>
+            <label>
+              автограф
+              <input type="checkbox" name="merch_autograph" value="autograph" checked="true">
+            </label>
+            <br>
+            <label>
+              футболку
+              <input type="checkbox" name="merch_t-shirt" value="t-shirt">
+            </label>
+            <br>
+            <label>
+              Кепку
+              <input type="checkbox" name="merch_cap" value="cap">
+            </label>
+            <br>
+            <br>
+          </section>
+          <section>
+            <label>
+              Я принимаю соглашение на обработку персональных данных
+              <input type="checkbox" name="agreements" value="true" required>
+            </label>
+            <br>
+            <br>
+          </section>
+          <section>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+          </section>
+        </form>
+      </section>
     </main>
 
     <footer>
